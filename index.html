@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curiosity Engine — discover a random science topic from Wikipedia, then dive deeper on Wikipedia or YouTube.">
+    <title>Curiosity Engine | Random Science Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Reading progress bar at the top -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <!-- Bookmarks panel -->
+    <div class="bookmarks-panel" id="bookmarks-panel" aria-label="Your bookmarks">
+        <div class="bookmarks-header">
+            <h3><i class="fas fa-bookmark" aria-hidden="true"></i> Your Bookmarks</h3>
+            <button class="close-bookmarks" id="close-bookmarks" aria-label="Close bookmarks"><i class="fas fa-times" aria-hidden="true"></i></button>
+        </div>
+        <div id="bookmarks-list">
+            <div class="empty-bookmarks">No bookmarks yet. Save interesting articles to read later!</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <h1>Curiosity Engine</h1>
+                <p>Discover a random science topic and follow your curiosity</p>
+            </div>
+            <div class="header-controls">
+                <label class="filter">
+                    <span class="filter-label">Topic area</span>
+                    <select id="category-select" aria-label="Filter random topics by area">
+                        <option value="Science">All areas</option>
+                        <option value="Physics">Physics</option>
+                        <option value="Chemistry">Chemistry</option>
+                        <option value="Biology">Biology</option>
+                        <option value="Astronomy">Astronomy</option>
+                        <option value="Mathematics">Mathematics</option>
+                        <option value="Computer_science">Computer science</option>
+                        <option value="Earth_science">Earth science</option>
+                    </select>
+                </label>
+                <div class="stats-container">
+                    <div class="stat-item" id="explored-stat" title="Unique topics you've explored">
+                        <i class="fas fa-compass" aria-hidden="true"></i>
+                        <span id="explored-count">0</span>
+                        <small>Explored</small>
+                    </div>
+                    <button class="stat-item clickable" id="bookmarks-stat" aria-label="View your bookmarks">
+                        <i class="fas fa-bookmark" aria-hidden="true"></i>
+                        <span id="bookmarks-count">0</span>
+                        <small>Saved</small>
+                    </button>
+                </div>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon" aria-hidden="true"></i>
+            </button>
+        </header>
+
+        <main class="content">
+            <article class="wiki-container">
+                <div class="wiki-header">
+                    <h2 id="article-title">Loading article…</h2>
+                    <div class="wiki-actions">
+                        <button id="simple-toggle" class="text-toggle" aria-pressed="false" aria-label="Show a simpler explanation">Simpler</button>
+                        <button id="listen-btn" class="icon-action" aria-label="Listen to this article" title="Listen">
+                            <i class="fas fa-volume-up" aria-hidden="true"></i>
+                        </button>
+                        <button id="bookmark-btn" class="bookmark-btn" aria-label="Bookmark this article">
+                            <i class="far fa-bookmark" aria-hidden="true"></i>
+                        </button>
+                        <button id="share-btn" class="share-btn" aria-label="Copy a link to this article">
+                            <i class="fas fa-share-alt" aria-hidden="true"></i>
+                        </button>
+                        <div id="copy-tooltip" class="copy-link-tooltip" role="status">Link copied!</div>
+                    </div>
+                </div>
+
+                <figure class="article-hero" id="article-hero" hidden>
+                    <img id="article-hero-img" alt="" loading="lazy">
+                </figure>
+
+                <!-- Recently viewed history -->
+                <div class="history-container" id="history-container">
+                    <div class="history-title">Recently viewed:</div>
+                    <div class="history-list" id="history-list"></div>
+                </div>
+
+                <!-- Wikipedia-style table of contents (shown when the article has sections) -->
+                <nav class="wiki-toc" id="wiki-toc" aria-label="Table of contents">
+                    <div class="wiki-toc-title">Contents <span class="wiki-toc-toggle" role="button" tabindex="0">[hide]</span></div>
+                    <ol>
+                        <li>Loading…</li>
+                    </ol>
+                </nav>
+
+                <div id="article-content" class="article-content" tabindex="0">
+                    <div class="loading-spinner" aria-label="Loading"></div>
+                </div>
+
+                <div class="related-topics" id="related-topics" hidden>
+                    <div class="related-title">Related topics — keep exploring</div>
+                    <div class="related-list" id="related-list"></div>
+                </div>
+
+                <div class="article-footer">
+                    <div class="wiki-categories">
+                        Category: <a id="category-link" href="#" target="_blank" rel="noopener noreferrer"></a>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="action-btn primary" id="new-topic-btn" title="Discover a new topic (press n or →)">
+                            <i class="fas fa-random" aria-hidden="true"></i> Discover new topic
+                        </button>
+                        <a href="#" id="youtube-search-link" class="action-btn youtube" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-youtube" aria-hidden="true"></i> Watch on YouTube
+                        </a>
+                        <a href="#" id="read-more" class="action-btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-external-link-alt" aria-hidden="true"></i> Read on Wikipedia
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <aside class="video-sidebar" id="video-sidebar" aria-label="Videos about this topic">
+                <div class="video-sidebar-header">
+                    <h2><i class="fas fa-play-circle" aria-hidden="true"></i> Videos</h2>
+                    <span class="video-topic" id="video-topic-label"></span>
+                </div>
+                <div class="video-player" id="video-player" hidden></div>
+                <div class="video-list" id="video-list">
+                    <div class="video-loading"><div class="loading-spinner" aria-label="Loading videos"></div></div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>Content from <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a> • Videos from <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></p>
+            <p>Made with <i class="fas fa-heart" aria-hidden="true"></i> for science enthusiasts</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
