@@ -202,9 +202,6 @@
                     </div>
 
                     <div class="action-buttons">
-                        <button class="action-btn primary" id="new-topic-btn" title="Discover a new topic (press n or →)">
-                            <i class="fas fa-random" aria-hidden="true"></i> Discover new topic
-                        </button>
                         <a href="#" id="youtube-search-link" class="action-btn youtube" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-youtube" aria-hidden="true"></i> Watch on YouTube
                         </a>
@@ -227,6 +224,12 @@
             </aside>
         </main>
     </div>
+
+    <!-- Always-in-the-same-spot Discover button -->
+    <button class="discover-fab" id="new-topic-btn" title="Discover a new topic (press n or →)" aria-label="Discover a new topic">
+        <i class="fas fa-random" aria-hidden="true"></i>
+        <span class="discover-fab-label">Discover</span>
+    </button>
 
     <!-- Milestone celebration toast -->
     <div class="toast" id="toast" hidden role="status" aria-live="polite">
