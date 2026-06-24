@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Curiosity Engine compass">
+  <rect width="64" height="64" rx="14" fill="#3366cc"/>
+  <rect width="64" height="32" rx="14" fill="#5a8ce6" opacity="0.35"/>
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <g transform="rotate(-45 32 32)">
+    <polygon points="32,13 38,32 26,32" fill="#f5a623"/>
+    <polygon points="32,51 38,32 26,32" fill="#ffffff"/>
+  </g>
+  <circle cx="32" cy="32" r="3.2" fill="#ffffff"/>
+</svg>

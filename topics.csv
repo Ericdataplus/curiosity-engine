@@ -1,0 +1,1263 @@
+category,topic,tier
+Physics,Black hole,mainstream
+Physics,Quantum mechanics,mainstream
+Physics,Theory of relativity,mainstream
+Physics,Gravity,mainstream
+Physics,Electromagnetism,mainstream
+Physics,Thermodynamics,mainstream
+Physics,Energy,mainstream
+Physics,Light,mainstream
+Physics,Sound,mainstream
+Physics,Atom,mainstream
+Physics,Nuclear fusion,mainstream
+Physics,Nuclear fission,mainstream
+Physics,Radioactive decay,mainstream
+Physics,Magnetism,mainstream
+Physics,Electricity,mainstream
+Physics,Wave,mainstream
+Physics,Speed of light,mainstream
+Physics,Big Bang,mainstream
+Physics,String theory,mainstream
+Physics,Antimatter,mainstream
+Physics,Dark matter,mainstream
+Physics,Dark energy,mainstream
+Physics,Higgs boson,mainstream
+Physics,Standard Model,mainstream
+Physics,Superconductivity,mainstream
+Physics,Entropy,mainstream
+Physics,Schrödinger's cat,mainstream
+Physics,Heisenberg uncertainty principle,mainstream
+Physics,Quantum entanglement,mainstream
+Physics,Wave–particle duality,deepcut
+Physics,Double-slit experiment,deepcut
+Physics,Casimir effect,deepcut
+Physics,Quantum tunnelling,deepcut
+Physics,Bose–Einstein condensate,deepcut
+Physics,Quark,deepcut
+Physics,Neutrino,deepcut
+Physics,Photon,deepcut
+Physics,Plasma (physics),deepcut
+Physics,Superfluidity,deepcut
+Physics,Quantum field theory,deepcut
+Physics,General relativity,deepcut
+Physics,Special relativity,deepcut
+Physics,Time dilation,deepcut
+Physics,Wormhole,deepcut
+Physics,Hawking radiation,deepcut
+Physics,Event horizon,deepcut
+Physics,Spacetime,deepcut
+Physics,Quantum gravity,deepcut
+Physics,Brownian motion,deepcut
+Physics,Chaos theory,deepcut
+Physics,Doppler effect,deepcut
+Physics,Resonance,deepcut
+Physics,Centrifugal force,deepcut
+Physics,Coriolis force,deepcut
+Physics,Maxwell's demon,deepcut
+Physics,Cherenkov radiation,deepcut
+Physics,Quantum computing,mainstream
+Physics,Laser,mainstream
+Chemistry,Periodic table,mainstream
+Chemistry,Chemical element,mainstream
+Chemistry,Molecule,mainstream
+Chemistry,Chemical reaction,mainstream
+Chemistry,Acid,mainstream
+Chemistry,Base (chemistry),mainstream
+Chemistry,Catalysis,mainstream
+Chemistry,Oxygen,mainstream
+Chemistry,Hydrogen,mainstream
+Chemistry,Carbon,mainstream
+Chemistry,Water,mainstream
+Chemistry,Salt,mainstream
+Chemistry,Metal,mainstream
+Chemistry,Gold,mainstream
+Chemistry,Oxidation,mainstream
+Chemistry,Combustion,mainstream
+Chemistry,Polymer,mainstream
+Chemistry,Plastic,mainstream
+Chemistry,Organic chemistry,mainstream
+Chemistry,Chemical bond,mainstream
+Chemistry,Ion,mainstream
+Chemistry,Electron,mainstream
+Chemistry,pH,mainstream
+Chemistry,Alloy,mainstream
+Chemistry,Crystal,mainstream
+Chemistry,Diamond,mainstream
+Chemistry,Carbon dioxide,mainstream
+Chemistry,Ammonia,mainstream
+Chemistry,Ethanol,mainstream
+Chemistry,Caffeine,mainstream
+Chemistry,Periodic trends,deepcut
+Chemistry,Allotropes of carbon,deepcut
+Chemistry,Noble gas,deepcut
+Chemistry,Halogen,deepcut
+Chemistry,Isotope,deepcut
+Chemistry,Avogadro constant,deepcut
+Chemistry,Mole (unit),deepcut
+Chemistry,Stoichiometry,deepcut
+Chemistry,Electronegativity,deepcut
+Chemistry,Covalent bond,deepcut
+Chemistry,Ionic bond,deepcut
+Chemistry,Hydrogen bond,deepcut
+Chemistry,Chirality (chemistry),deepcut
+Chemistry,Benzene,deepcut
+Chemistry,Buckminsterfullerene,deepcut
+Chemistry,Graphene,deepcut
+Chemistry,Aerogel,deepcut
+Chemistry,Thermite,deepcut
+Chemistry,Electrolysis,deepcut
+Chemistry,Chromatography,deepcut
+Chemistry,Spectroscopy,deepcut
+Chemistry,Alchemy,mainstream
+Chemistry,Radiocarbon dating,deepcut
+Chemistry,Maillard reaction,deepcut
+Chemistry,Superacid,deepcut
+Chemistry,Phosphorescence,deepcut
+Biology,Evolution,mainstream
+Biology,Natural selection,mainstream
+Biology,DNA,mainstream
+Biology,Cell (biology),mainstream
+Biology,Gene,mainstream
+Biology,Genetics,mainstream
+Biology,Photosynthesis,mainstream
+Biology,Bacteria,mainstream
+Biology,Virus,mainstream
+Biology,Ecosystem,mainstream
+Biology,Mitochondrion,mainstream
+Biology,Protein,mainstream
+Biology,Enzyme,mainstream
+Biology,Immune system,mainstream
+Biology,Brain,mainstream
+Biology,Neuron,mainstream
+Biology,Heart,mainstream
+Biology,Blood,mainstream
+Biology,Mutation,mainstream
+Biology,Chromosome,mainstream
+Biology,Stem cell,mainstream
+Biology,Microbiome,mainstream
+Biology,Extinction,mainstream
+Biology,Biodiversity,mainstream
+Biology,Symbiosis,mainstream
+Biology,Metabolism,mainstream
+Biology,Reproduction,mainstream
+Biology,Cancer,mainstream
+Biology,Aging,mainstream
+Biology,CRISPR,mainstream
+Biology,Genome,mainstream
+Biology,RNA,deepcut
+Biology,Ribosome,deepcut
+Biology,Mitosis,deepcut
+Biology,Meiosis,deepcut
+Biology,Apoptosis,deepcut
+Biology,Epigenetics,deepcut
+Biology,Horizontal gene transfer,deepcut
+Biology,Convergent evolution,deepcut
+Biology,Endosymbiosis,deepcut
+Biology,Tardigrade,deepcut
+Biology,Slime mold,deepcut
+Biology,Mycelium,deepcut
+Biology,Lichen,deepcut
+Biology,Extremophile,deepcut
+Biology,Bioluminescence,deepcut
+Biology,Mimicry,deepcut
+Biology,Eusociality,deepcut
+Biology,Circadian rhythm,deepcut
+Biology,Homeostasis,deepcut
+Biology,Telomere,deepcut
+Biology,Plasmid,deepcut
+Biology,Phylogenetics,deepcut
+Biology,Cambrian explosion,deepcut
+Biology,Cellular respiration,deepcut
+Biology,Octopus,mainstream
+Biology,Axolotl,deepcut
+Biology,Coral reef,mainstream
+Astronomy,Solar System,mainstream
+Astronomy,Sun,mainstream
+Astronomy,Moon,mainstream
+Astronomy,Mars,mainstream
+Astronomy,Jupiter,mainstream
+Astronomy,Saturn,mainstream
+Astronomy,Venus,mainstream
+Astronomy,Mercury (planet),mainstream
+Astronomy,Neptune,mainstream
+Astronomy,Uranus,mainstream
+Astronomy,Pluto,mainstream
+Astronomy,Galaxy,mainstream
+Astronomy,Milky Way,mainstream
+Astronomy,Star,mainstream
+Astronomy,Supernova,mainstream
+Astronomy,Comet,mainstream
+Astronomy,Asteroid,mainstream
+Astronomy,Meteorite,mainstream
+Astronomy,Nebula,mainstream
+Astronomy,Exoplanet,mainstream
+Astronomy,Universe,mainstream
+Astronomy,Cosmic microwave background,mainstream
+Astronomy,Neutron star,mainstream
+Astronomy,Andromeda Galaxy,mainstream
+Astronomy,International Space Station,mainstream
+Astronomy,Hubble Space Telescope,mainstream
+Astronomy,James Webb Space Telescope,mainstream
+Astronomy,Apollo 11,mainstream
+Astronomy,Voyager 1,mainstream
+Astronomy,Eclipse,mainstream
+Astronomy,Pulsar,deepcut
+Astronomy,Quasar,deepcut
+Astronomy,White dwarf,deepcut
+Astronomy,Red giant,deepcut
+Astronomy,Magnetar,deepcut
+Astronomy,Kuiper belt,deepcut
+Astronomy,Oort cloud,deepcut
+Astronomy,Asteroid belt,deepcut
+Astronomy,Solar wind,deepcut
+Astronomy,Aurora,deepcut
+Astronomy,Gravitational wave,deepcut
+Astronomy,Accretion disk,deepcut
+Astronomy,Dwarf planet,deepcut
+Astronomy,Europa (moon),deepcut
+Astronomy,Titan (moon),deepcut
+Astronomy,Enceladus,deepcut
+Astronomy,Great Red Spot,deepcut
+Astronomy,Drake equation,deepcut
+Astronomy,Fermi paradox,deepcut
+Astronomy,Dyson sphere,deepcut
+Astronomy,Goldilocks zone,deepcut
+Astronomy,Light-year,deepcut
+Astronomy,Redshift,deepcut
+Astronomy,Cosmic inflation,deepcut
+Astronomy,Tidal locking,deepcut
+Astronomy,Roche limit,deepcut
+Earth Science,Plate tectonics,mainstream
+Earth Science,Earthquake,mainstream
+Earth Science,Volcano,mainstream
+Earth Science,Tsunami,mainstream
+Earth Science,Hurricane,mainstream
+Earth Science,Tornado,mainstream
+Earth Science,Climate change,mainstream
+Earth Science,Glacier,mainstream
+Earth Science,Ice age,mainstream
+Earth Science,Ocean,mainstream
+Earth Science,Atmosphere of Earth,mainstream
+Earth Science,Weather,mainstream
+Earth Science,Rock (geology),mainstream
+Earth Science,Mineral,mainstream
+Earth Science,Fossil,mainstream
+Earth Science,Geyser,mainstream
+Earth Science,Cave,mainstream
+Earth Science,Desert,mainstream
+Earth Science,Rainforest,mainstream
+Earth Science,Erosion,mainstream
+Earth Science,Water cycle,mainstream
+Earth Science,Carbon cycle,mainstream
+Earth Science,Greenhouse effect,mainstream
+Earth Science,Ozone layer,mainstream
+Earth Science,El Niño,mainstream
+Earth Science,Geology,mainstream
+Earth Science,Lightning,mainstream
+Earth Science,Rainbow,mainstream
+Earth Science,Magnetosphere,deepcut
+Earth Science,Mantle (geology),deepcut
+Earth Science,Earth's inner core,deepcut
+Earth Science,Subduction,deepcut
+Earth Science,Continental drift,deepcut
+Earth Science,Pangaea,deepcut
+Earth Science,Supercontinent,deepcut
+Earth Science,Mid-ocean ridge,deepcut
+Earth Science,Hotspot (geology),deepcut
+Earth Science,Caldera,deepcut
+Earth Science,Stalactite,deepcut
+Earth Science,Karst,deepcut
+Earth Science,Permafrost,deepcut
+Earth Science,Aquifer,deepcut
+Earth Science,Geomagnetic reversal,deepcut
+Earth Science,Milankovitch cycles,deepcut
+Earth Science,Thermohaline circulation,deepcut
+Earth Science,Jet stream,deepcut
+Earth Science,Monsoon,deepcut
+Earth Science,Ball lightning,deepcut
+Earth Science,Bioluminescent waves,deepcut
+Earth Science,Sinkhole,deepcut
+Earth Science,Tide,deepcut
+Earth Science,Geode,deepcut
+Earth Science,Snowflake,deepcut
+Mathematics,Pi,mainstream
+Mathematics,Prime number,mainstream
+Mathematics,Infinity,mainstream
+Mathematics,Fibonacci sequence,mainstream
+Mathematics,Golden ratio,mainstream
+Mathematics,Pythagorean theorem,mainstream
+Mathematics,Calculus,mainstream
+Mathematics,Geometry,mainstream
+Mathematics,Algebra,mainstream
+Mathematics,Probability,mainstream
+Mathematics,Statistics,mainstream
+Mathematics,Fractal,mainstream
+Mathematics,Zero,mainstream
+Mathematics,Imaginary number,mainstream
+Mathematics,Logarithm,mainstream
+Mathematics,Number theory,mainstream
+Mathematics,Topology,mainstream
+Mathematics,Set theory,mainstream
+Mathematics,Game theory,mainstream
+Mathematics,Chaos theory,mainstream
+Mathematics,Euler's identity,deepcut
+Mathematics,Mandelbrot set,deepcut
+Mathematics,Riemann hypothesis,deepcut
+Mathematics,Goldbach's conjecture,deepcut
+Mathematics,Fermat's Last Theorem,deepcut
+Mathematics,Collatz conjecture,deepcut
+Mathematics,Gödel's incompleteness theorems,deepcut
+Mathematics,Cantor's diagonal argument,deepcut
+Mathematics,Continuum hypothesis,deepcut
+Mathematics,P versus NP problem,deepcut
+Mathematics,Four color theorem,deepcut
+Mathematics,Monty Hall problem,deepcut
+Mathematics,Birthday problem,deepcut
+Mathematics,Banach–Tarski paradox,deepcut
+Mathematics,Zeno's paradoxes,deepcut
+Mathematics,Möbius strip,deepcut
+Mathematics,Klein bottle,deepcut
+Mathematics,Tessellation,deepcut
+Mathematics,Non-Euclidean geometry,deepcut
+Mathematics,Knot theory,deepcut
+Mathematics,Graph theory,deepcut
+Mathematics,Combinatorics,deepcut
+Mathematics,Bayes' theorem,deepcut
+Mathematics,Normal distribution,deepcut
+Mathematics,Pascal's triangle,deepcut
+Mathematics,Euclidean geometry,deepcut
+Mathematics,Cryptography,mainstream
+Mathematics,Cellular automaton,deepcut
+Mathematics,Conway's Game of Life,deepcut
+Mathematics,Hilbert's problems,deepcut
+Mathematics,Transcendental number,deepcut
+Computer Science,Algorithm,mainstream
+Computer Science,Artificial intelligence,mainstream
+Computer Science,Machine learning,mainstream
+Computer Science,Neural network,mainstream
+Computer Science,Deep learning,mainstream
+Computer Science,Programming language,mainstream
+Computer Science,Computer,mainstream
+Computer Science,Internet,mainstream
+Computer Science,World Wide Web,mainstream
+Computer Science,Encryption,mainstream
+Computer Science,Database,mainstream
+Computer Science,Operating system,mainstream
+Computer Science,Binary number,mainstream
+Computer Science,Data structure,mainstream
+Computer Science,Computer virus,mainstream
+Computer Science,Cloud computing,mainstream
+Computer Science,Blockchain,mainstream
+Computer Science,Cryptocurrency,mainstream
+Computer Science,Quantum computing,mainstream
+Computer Science,Computer vision,mainstream
+Computer Science,Natural language processing,mainstream
+Computer Science,Large language model,mainstream
+Computer Science,Open-source software,mainstream
+Computer Science,Computer programming,mainstream
+Computer Science,Turing machine,deepcut
+Computer Science,Turing test,deepcut
+Computer Science,Halting problem,deepcut
+Computer Science,Big O notation,deepcut
+Computer Science,Recursion,deepcut
+Computer Science,Sorting algorithm,deepcut
+Computer Science,Hash function,deepcut
+Computer Science,Public-key cryptography,deepcut
+Computer Science,Compiler,deepcut
+Computer Science,Moore's law,deepcut
+Computer Science,Von Neumann architecture,deepcut
+Computer Science,Boolean algebra,deepcut
+Computer Science,Logic gate,deepcut
+Computer Science,Distributed computing,deepcut
+Computer Science,Computational complexity theory,deepcut
+Computer Science,Cellular automaton,deepcut
+Computer Science,Genetic algorithm,deepcut
+Computer Science,Reinforcement learning,deepcut
+Computer Science,Transformer (deep learning architecture),deepcut
+Computer Science,Backpropagation,deepcut
+Computer Science,Garbage collection (computer science),deepcut
+Computer Science,Functional programming,deepcut
+Computer Science,Quine (computing),deepcut
+Computer Science,Rubber duck debugging,deepcut
+Computer Science,Dijkstra's algorithm,deepcut
+Computer Science,ENIAC,deepcut
+Computer Science,Ada Lovelace,mainstream
+Computer Science,Alan Turing,mainstream
+Technology,Steam engine,mainstream
+Technology,Printing press,mainstream
+Technology,Electricity,mainstream
+Technology,Telephone,mainstream
+Technology,Radio,mainstream
+Technology,Television,mainstream
+Technology,Automobile,mainstream
+Technology,Airplane,mainstream
+Technology,Rocket,mainstream
+Technology,Nuclear reactor,mainstream
+Technology,Solar panel,mainstream
+Technology,Wind turbine,mainstream
+Technology,Battery (electricity),mainstream
+Technology,Semiconductor,mainstream
+Technology,Transistor,mainstream
+Technology,Integrated circuit,mainstream
+Technology,Microprocessor,mainstream
+Technology,Robot,mainstream
+Technology,Drone,mainstream
+Technology,Satellite,mainstream
+Technology,GPS,mainstream
+Technology,Smartphone,mainstream
+Technology,3D printing,mainstream
+Technology,Electric vehicle,mainstream
+Technology,Virtual reality,mainstream
+Technology,Augmented reality,mainstream
+Technology,Internet of things,mainstream
+Technology,Nanotechnology,mainstream
+Technology,Genetic engineering,mainstream
+Technology,Renewable energy,mainstream
+Technology,Maglev,deepcut
+Technology,Fiber-optic communication,deepcut
+Technology,Lithium-ion battery,deepcut
+Technology,Hydrogen fuel cell,deepcut
+Technology,Photovoltaics,deepcut
+Technology,Geothermal energy,deepcut
+Technology,Nuclear fusion power,deepcut
+Technology,Carbon capture and storage,deepcut
+Technology,Desalination,deepcut
+Technology,Cryonics,deepcut
+Technology,Exoskeleton,deepcut
+Technology,Brain–computer interface,deepcut
+Technology,Quantum cryptography,deepcut
+Technology,Lidar,deepcut
+Technology,Radar,deepcut
+Technology,Sonar,deepcut
+Technology,Holography,deepcut
+Technology,Vacuum tube,deepcut
+Technology,Difference engine,deepcut
+Technology,Antikythera mechanism,deepcut
+Technology,Solar sail,deepcut
+Technology,Ion thruster,deepcut
+Technology,Internal combustion engine,deepcut
+Technology,Jet engine,deepcut
+Medicine,Vaccine,mainstream
+Medicine,Antibiotic,mainstream
+Medicine,Penicillin,mainstream
+Medicine,Surgery,mainstream
+Medicine,Anesthesia,mainstream
+Medicine,Insulin,mainstream
+Medicine,Blood transfusion,mainstream
+Medicine,Organ transplantation,mainstream
+Medicine,X-ray,mainstream
+Medicine,MRI,mainstream
+Medicine,Chemotherapy,mainstream
+Medicine,Antibody,mainstream
+Medicine,Diabetes,mainstream
+Medicine,Hypertension,mainstream
+Medicine,Tuberculosis,mainstream
+Medicine,Malaria,mainstream
+Medicine,Influenza,mainstream
+Medicine,Smallpox,mainstream
+Medicine,HIV/AIDS,mainstream
+Medicine,Alzheimer's disease,mainstream
+Medicine,Parkinson's disease,mainstream
+Medicine,Stroke,mainstream
+Medicine,Antiseptic,mainstream
+Medicine,Stethoscope,mainstream
+Medicine,Pandemic,mainstream
+Medicine,Epidemiology,mainstream
+Medicine,Immunization,mainstream
+Medicine,Antibiotic resistance,mainstream
+Medicine,Placebo,mainstream
+Medicine,Germ theory of disease,deepcut
+Medicine,Hippocratic Oath,deepcut
+Medicine,Black Death,mainstream
+Medicine,Spanish flu,deepcut
+Medicine,Vaccination,deepcut
+Medicine,Immunotherapy,deepcut
+Medicine,Gene therapy,deepcut
+Medicine,Antibody-drug conjugate,deepcut
+Medicine,Phantom limb,deepcut
+Medicine,Placebo effect,deepcut
+Medicine,Nocebo,deepcut
+Medicine,Trepanning,deepcut
+Medicine,Bloodletting,deepcut
+Medicine,Humorism,deepcut
+Medicine,Defibrillation,deepcut
+Medicine,Dialysis,deepcut
+Medicine,Pacemaker,deepcut
+Medicine,Prosthesis,deepcut
+Medicine,Antidepressant,deepcut
+Medicine,Microbiome,deepcut
+Medicine,Synesthesia,deepcut
+Medicine,Cesarean section,deepcut
+Medicine,Vaccine hesitancy,deepcut
+Medicine,Antimicrobial resistance,deepcut
+Psychology,Memory,mainstream
+Psychology,Consciousness,mainstream
+Psychology,Emotion,mainstream
+Psychology,Intelligence,mainstream
+Psychology,Personality,mainstream
+Psychology,Dream,mainstream
+Psychology,Sleep,mainstream
+Psychology,Cognition,mainstream
+Psychology,Perception,mainstream
+Psychology,Motivation,mainstream
+Psychology,Depression (mood),mainstream
+Psychology,Anxiety,mainstream
+Psychology,Stress (biology),mainstream
+Psychology,Phobia,mainstream
+Psychology,Addiction,mainstream
+Psychology,Empathy,mainstream
+Psychology,Cognitive bias,mainstream
+Psychology,Placebo,mainstream
+Psychology,Hypnosis,mainstream
+Psychology,Sigmund Freud,mainstream
+Psychology,Carl Jung,mainstream
+Psychology,Behaviorism,mainstream
+Psychology,Psychoanalysis,mainstream
+Psychology,Conditioning,deepcut
+Psychology,Classical conditioning,deepcut
+Psychology,Operant conditioning,deepcut
+Psychology,Pavlovian conditioning,deepcut
+Psychology,Maslow's hierarchy of needs,mainstream
+Psychology,Cognitive dissonance,deepcut
+Psychology,Confirmation bias,deepcut
+Psychology,Dunning–Kruger effect,deepcut
+Psychology,Placebo effect,deepcut
+Psychology,Stanford prison experiment,deepcut
+Psychology,Milgram experiment,deepcut
+Psychology,Bystander effect,deepcut
+Psychology,Pareidolia,deepcut
+Psychology,Déjà vu,deepcut
+Psychology,Flow (psychology),deepcut
+Psychology,Imposter syndrome,deepcut
+Psychology,Stockholm syndrome,deepcut
+Psychology,Gaslighting,deepcut
+Psychology,Groupthink,deepcut
+Psychology,Halo effect,deepcut
+Psychology,Placebo button,deepcut
+Psychology,Mere-exposure effect,deepcut
+Psychology,Cocktail party effect,deepcut
+Psychology,Phantom vibration syndrome,deepcut
+Psychology,Mirror neuron,deepcut
+Psychology,Lucid dream,deepcut
+Psychology,Attachment theory,deepcut
+Psychology,Big Five personality traits,deepcut
+Psychology,Mindfulness,mainstream
+History,Roman Empire,mainstream
+History,Ancient Egypt,mainstream
+History,Ancient Greece,mainstream
+History,World War I,mainstream
+History,World War II,mainstream
+History,French Revolution,mainstream
+History,American Revolution,mainstream
+History,Industrial Revolution,mainstream
+History,Renaissance,mainstream
+History,Middle Ages,mainstream
+History,Cold War,mainstream
+History,Roman Republic,mainstream
+History,Byzantine Empire,mainstream
+History,Ottoman Empire,mainstream
+History,Mongol Empire,mainstream
+History,Crusades,mainstream
+History,Black Death,mainstream
+History,Age of Discovery,mainstream
+History,Vikings,mainstream
+History,Aztecs,mainstream
+History,Maya civilization,mainstream
+History,Inca Empire,mainstream
+History,Ancient Rome,mainstream
+History,Mesopotamia,mainstream
+History,Great Depression,mainstream
+History,Russian Revolution,mainstream
+History,Scientific Revolution,mainstream
+History,The Enlightenment,mainstream
+History,Apartheid,mainstream
+History,Silk Road,mainstream
+History,Library of Alexandria,deepcut
+History,Code of Hammurabi,deepcut
+History,Rosetta Stone,deepcut
+History,Terracotta Army,deepcut
+History,Hanseatic League,deepcut
+History,Bronze Age collapse,deepcut
+History,Indus Valley Civilisation,deepcut
+History,Göbekli Tepe,deepcut
+History,Pax Romana,deepcut
+History,Fall of Constantinople,deepcut
+History,Hundred Years' War,deepcut
+History,Thirty Years' War,deepcut
+History,Spanish Inquisition,deepcut
+History,Salem witch trials,deepcut
+History,Boston Tea Party,deepcut
+History,Magna Carta,deepcut
+History,Gunpowder Plot,deepcut
+History,Defenestrations of Prague,deepcut
+History,Atlantic slave trade,deepcut
+History,Meiji Restoration,deepcut
+History,Partition of India,deepcut
+History,Cuban Missile Crisis,deepcut
+History,Manhattan Project,deepcut
+History,Berlin Wall,deepcut
+History,Trail of Tears,deepcut
+History,Spartacus,deepcut
+History,Genghis Khan,mainstream
+History,Cleopatra,deepcut
+Philosophy,Stoicism,mainstream
+Philosophy,Existentialism,mainstream
+Philosophy,Ethics,mainstream
+Philosophy,Logic,mainstream
+Philosophy,Metaphysics,mainstream
+Philosophy,Epistemology,mainstream
+Philosophy,Free will,mainstream
+Philosophy,Consciousness,mainstream
+Philosophy,Nihilism,mainstream
+Philosophy,Utilitarianism,mainstream
+Philosophy,Socrates,mainstream
+Philosophy,Plato,mainstream
+Philosophy,Aristotle,mainstream
+Philosophy,Immanuel Kant,mainstream
+Philosophy,Friedrich Nietzsche,mainstream
+Philosophy,René Descartes,mainstream
+Philosophy,Confucianism,mainstream
+Philosophy,Taoism,mainstream
+Philosophy,Buddhism,mainstream
+Philosophy,Skepticism,mainstream
+Philosophy,Determinism,mainstream
+Philosophy,Empiricism,mainstream
+Philosophy,Rationalism,mainstream
+Philosophy,Dualism (philosophy of mind),deepcut
+Philosophy,Solipsism,deepcut
+Philosophy,Absurdism,deepcut
+Philosophy,Hedonism,deepcut
+Philosophy,Pragmatism,deepcut
+Philosophy,Phenomenology (philosophy),deepcut
+Philosophy,Trolley problem,deepcut
+Philosophy,Ship of Theseus,deepcut
+Philosophy,Allegory of the cave,deepcut
+Philosophy,Categorical imperative,deepcut
+Philosophy,Cogito ergo sum,deepcut
+Philosophy,Occam's razor,deepcut
+Philosophy,Pascal's wager,deepcut
+Philosophy,Brain in a vat,deepcut
+Philosophy,Philosophical zombie,deepcut
+Philosophy,Eternal return,deepcut
+Philosophy,Übermensch,deepcut
+Philosophy,Categorical proposition,deepcut
+Philosophy,Tabula rasa,deepcut
+Philosophy,Veil of ignorance,deepcut
+Philosophy,Golden Rule,deepcut
+Philosophy,Stoic philosophy,deepcut
+Philosophy,Epicureanism,deepcut
+Philosophy,Cynicism (philosophy),deepcut
+Philosophy,Sophism,deepcut
+Philosophy,Dialectic,deepcut
+Philosophy,Karl Marx,mainstream
+Philosophy,Diogenes,deepcut
+Art,Mona Lisa,mainstream
+Art,Leonardo da Vinci,mainstream
+Art,Vincent van Gogh,mainstream
+Art,Pablo Picasso,mainstream
+Art,Michelangelo,mainstream
+Art,The Starry Night,mainstream
+Art,Impressionism,mainstream
+Art,Surrealism,mainstream
+Art,Cubism,mainstream
+Art,Renaissance art,mainstream
+Art,Baroque,mainstream
+Art,Abstract art,mainstream
+Art,Pop art,mainstream
+Art,Sculpture,mainstream
+Art,Painting,mainstream
+Art,Photography,mainstream
+Art,Salvador Dalí,mainstream
+Art,Claude Monet,mainstream
+Art,Rembrandt,mainstream
+Art,Frida Kahlo,mainstream
+Art,Andy Warhol,mainstream
+Art,Sistine Chapel ceiling,mainstream
+Art,The Scream,mainstream
+Art,Graffiti,mainstream
+Art,Street art,mainstream
+Art,Expressionism,deepcut
+Art,Dada,deepcut
+Art,Art Nouveau,deepcut
+Art,Art Deco,deepcut
+Art,Romanticism,deepcut
+Art,Fauvism,deepcut
+Art,Minimalism,deepcut
+Art,Bauhaus,deepcut
+Art,Pointillism,deepcut
+Art,Ukiyo-e,deepcut
+Art,The Great Wave off Kanagawa,deepcut
+Art,Guernica (Picasso),deepcut
+Art,The Birth of Venus,deepcut
+Art,Girl with a Pearl Earring,deepcut
+Art,American Gothic,deepcut
+Art,The Persistence of Memory,deepcut
+Art,Color theory,deepcut
+Art,Chiaroscuro,deepcut
+Art,Trompe-l'œil,deepcut
+Art,Fresco,deepcut
+Art,Mosaic,deepcut
+Art,Calligraphy,deepcut
+Art,Banksy,mainstream
+Art,Jackson Pollock,deepcut
+Art,Gustav Klimt,deepcut
+Art,Vermeer,deepcut
+Music,Ludwig van Beethoven,mainstream
+Music,Wolfgang Amadeus Mozart,mainstream
+Music,Johann Sebastian Bach,mainstream
+Music,Jazz,mainstream
+Music,Rock music,mainstream
+Music,Classical music,mainstream
+Music,Hip hop music,mainstream
+Music,Blues,mainstream
+Music,The Beatles,mainstream
+Music,Opera,mainstream
+Music,Symphony,mainstream
+Music,Guitar,mainstream
+Music,Piano,mainstream
+Music,Violin,mainstream
+Music,Orchestra,mainstream
+Music,Rhythm,mainstream
+Music,Melody,mainstream
+Music,Harmony,mainstream
+Music,Reggae,mainstream
+Music,Country music,mainstream
+Music,Electronic music,mainstream
+Music,Folk music,mainstream
+Music,Punk rock,mainstream
+Music,Heavy metal music,mainstream
+Music,Pop music,mainstream
+Music,Music theory,mainstream
+Music,Chord (music),deepcut
+Music,Musical scale,deepcut
+Music,Pentatonic scale,deepcut
+Music,Equal temperament,deepcut
+Music,Counterpoint,deepcut
+Music,Polyphony,deepcut
+Music,Gregorian chant,deepcut
+Music,Synthesizer,deepcut
+Music,Theremin,deepcut
+Music,Sonata,deepcut
+Music,Concerto,deepcut
+Music,Fugue,deepcut
+Music,Tritone,deepcut
+Music,Perfect pitch,deepcut
+Music,Circle of fifths,deepcut
+Music,Acoustic resonance,deepcut
+Music,Just intonation,deepcut
+Music,Bebop,deepcut
+Music,Motown,deepcut
+Music,Flamenco,deepcut
+Music,Throat singing,deepcut
+Music,Gamelan,deepcut
+Music,Igor Stravinsky,deepcut
+Music,Miles Davis,mainstream
+Music,Bob Dylan,mainstream
+Literature,William Shakespeare,mainstream
+Literature,Homer,mainstream
+Literature,Odyssey,mainstream
+Literature,Iliad,mainstream
+Literature,Hamlet,mainstream
+Literature,Don Quixote,mainstream
+Literature,The Divine Comedy,mainstream
+Literature,Moby-Dick,mainstream
+Literature,Pride and Prejudice,mainstream
+Literature,War and Peace,mainstream
+Literature,Crime and Punishment,mainstream
+Literature,Nineteen Eighty-Four,mainstream
+Literature,Brave New World,mainstream
+Literature,Frankenstein,mainstream
+Literature,Dracula,mainstream
+Literature,The Great Gatsby,mainstream
+Literature,Ulysses (novel),mainstream
+Literature,Poetry,mainstream
+Literature,Novel,mainstream
+Literature,Tragedy,mainstream
+Literature,Epic poetry,mainstream
+Literature,Jane Austen,mainstream
+Literature,Charles Dickens,mainstream
+Literature,Leo Tolstoy,mainstream
+Literature,Fyodor Dostoevsky,mainstream
+Literature,Edgar Allan Poe,mainstream
+Literature,Franz Kafka,mainstream
+Literature,Gabriel García Márquez,mainstream
+Literature,The Epic of Gilgamesh,deepcut
+Literature,Beowulf,deepcut
+Literature,The Canterbury Tales,deepcut
+Literature,Paradise Lost,deepcut
+Literature,One Thousand and One Nights,deepcut
+Literature,The Metamorphosis,deepcut
+Literature,One Hundred Years of Solitude,deepcut
+Literature,Stream of consciousness,deepcut
+Literature,Magic realism,deepcut
+Literature,Bildungsroman,deepcut
+Literature,Sonnet,deepcut
+Literature,Haiku,deepcut
+Literature,Allegory,deepcut
+Literature,Unreliable narrator,deepcut
+Literature,Dystopia,deepcut
+Literature,Science fiction,mainstream
+Literature,Gothic fiction,deepcut
+Literature,The Tale of Genji,deepcut
+Literature,The Brothers Karamazov,deepcut
+Literature,Heart of Darkness,deepcut
+Literature,Jorge Luis Borges,deepcut
+Literature,Virginia Woolf,deepcut
+Literature,Mark Twain,mainstream
+Literature,Oscar Wilde,mainstream
+Mythology,Greek mythology,mainstream
+Mythology,Norse mythology,mainstream
+Mythology,Egyptian mythology,mainstream
+Mythology,Roman mythology,mainstream
+Mythology,Zeus,mainstream
+Mythology,Thor,mainstream
+Mythology,Odin,mainstream
+Mythology,Hercules,mainstream
+Mythology,Medusa,mainstream
+Mythology,Pandora's box,mainstream
+Mythology,Achilles,mainstream
+Mythology,Trojan War,mainstream
+Mythology,Minotaur,mainstream
+Mythology,Phoenix (mythology),mainstream
+Mythology,Dragon,mainstream
+Mythology,Atlantis,mainstream
+Mythology,Ragnarök,mainstream
+Mythology,Valhalla,mainstream
+Mythology,Poseidon,mainstream
+Mythology,Hades,mainstream
+Mythology,Athena,mainstream
+Mythology,Apollo,mainstream
+Mythology,Anubis,mainstream
+Mythology,Ra,mainstream
+Mythology,Loki,mainstream
+Mythology,Icarus,deepcut
+Mythology,Sisyphus,deepcut
+Mythology,Prometheus,deepcut
+Mythology,Orpheus,deepcut
+Mythology,Persephone,deepcut
+Mythology,Theseus,deepcut
+Mythology,Perseus,deepcut
+Mythology,Yggdrasil,deepcut
+Mythology,Fenrir,deepcut
+Mythology,Kraken,deepcut
+Mythology,Cerberus,deepcut
+Mythology,Chimera (mythology),deepcut
+Mythology,Sphinx,deepcut
+Mythology,Banshee,deepcut
+Mythology,Golem,deepcut
+Mythology,Djinn,deepcut
+Mythology,Quetzalcoatl,deepcut
+Mythology,Gilgamesh,deepcut
+Mythology,Hydra (mythology),deepcut
+Mythology,Pegasus,deepcut
+Mythology,Wendigo,deepcut
+Mythology,Baba Yaga,deepcut
+Mythology,Yokai,deepcut
+Mythology,Aztec mythology,deepcut
+Mythology,Celtic mythology,deepcut
+Mythology,Hindu mythology,deepcut
+Geography,Mount Everest,mainstream
+Geography,Amazon River,mainstream
+Geography,Sahara,mainstream
+Geography,Nile,mainstream
+Geography,Great Barrier Reef,mainstream
+Geography,Grand Canyon,mainstream
+Geography,Antarctica,mainstream
+Geography,Mariana Trench,mainstream
+Geography,Himalayas,mainstream
+Geography,Pacific Ocean,mainstream
+Geography,Amazon rainforest,mainstream
+Geography,Niagara Falls,mainstream
+Geography,Dead Sea,mainstream
+Geography,Mount Kilimanjaro,mainstream
+Geography,Iceland,mainstream
+Geography,Greenland,mainstream
+Geography,Galápagos Islands,mainstream
+Geography,Alps,mainstream
+Geography,Andes,mainstream
+Geography,Gobi Desert,mainstream
+Geography,Yellowstone National Park,mainstream
+Geography,Victoria Falls,mainstream
+Geography,Atacama Desert,deepcut
+Geography,Mount Vesuvius,mainstream
+Geography,Lake Baikal,deepcut
+Geography,Bermuda Triangle,mainstream
+Geography,Ring of Fire,deepcut
+Geography,Tropic of Cancer,deepcut
+Geography,Equator,mainstream
+Geography,Prime meridian,deepcut
+Geography,Continental divide,deepcut
+Geography,Tectonic plate,deepcut
+Geography,Fjord,deepcut
+Geography,Archipelago,deepcut
+Geography,Isthmus,deepcut
+Geography,Peninsula,deepcut
+Geography,Tundra,deepcut
+Geography,Savanna,deepcut
+Geography,Steppe,deepcut
+Geography,Oasis,deepcut
+Geography,Salar de Uyuni,deepcut
+Geography,Danakil Depression,deepcut
+Geography,Socotra,deepcut
+Geography,Mount Fuji,mainstream
+Geography,Uluru,deepcut
+Geography,Angel Falls,deepcut
+Geography,Cappadocia,deepcut
+Geography,Pamukkale,deepcut
+Geography,Zhangjiajie National Forest Park,deepcut
+Geography,Plitvice Lakes National Park,deepcut
+Economics,Capitalism,mainstream
+Economics,Socialism,mainstream
+Economics,Communism,mainstream
+Economics,Inflation,mainstream
+Economics,Supply and demand,mainstream
+Economics,Gross domestic product,mainstream
+Economics,Stock market,mainstream
+Economics,Free market,mainstream
+Economics,Recession,mainstream
+Economics,Interest,mainstream
+Economics,Money,mainstream
+Economics,Currency,mainstream
+Economics,Tax,mainstream
+Economics,Trade,mainstream
+Economics,Globalization,mainstream
+Economics,Unemployment,mainstream
+Economics,Monopoly,mainstream
+Economics,Bitcoin,mainstream
+Economics,Federal Reserve,mainstream
+Economics,Great Depression,mainstream
+Economics,Adam Smith,mainstream
+Economics,Karl Marx,mainstream
+Economics,Keynesian economics,mainstream
+Economics,Microeconomics,mainstream
+Economics,Macroeconomics,mainstream
+Economics,Opportunity cost,deepcut
+Economics,Comparative advantage,deepcut
+Economics,Invisible hand,deepcut
+Economics,Game theory,deepcut
+Economics,Behavioral economics,deepcut
+Economics,Hyperinflation,deepcut
+Economics,Stagflation,deepcut
+Economics,Tragedy of the commons,deepcut
+Economics,Moral hazard,deepcut
+Economics,Externality,deepcut
+Economics,Gini coefficient,deepcut
+Economics,Universal basic income,deepcut
+Economics,Cryptocurrency,deepcut
+Economics,Tulip mania,deepcut
+Economics,Bubble (economics),deepcut
+Economics,Pareto principle,deepcut
+Economics,Diminishing returns,deepcut
+Economics,Gold standard,deepcut
+Economics,Mercantilism,deepcut
+Economics,Laissez-faire,deepcut
+Economics,Veblen good,deepcut
+Economics,Giffen good,deepcut
+Economics,Black market,deepcut
+Economics,Compound interest,deepcut
+Economics,Quantitative easing,deepcut
+Economics,Nash equilibrium,deepcut
+Politics,Democracy,mainstream
+Politics,Constitution,mainstream
+Politics,Liberalism,mainstream
+Politics,Conservatism,mainstream
+Politics,Fascism,mainstream
+Politics,Anarchism,mainstream
+Politics,Monarchy,mainstream
+Politics,Republic,mainstream
+Politics,Dictatorship,mainstream
+Politics,Federalism,mainstream
+Politics,Separation of powers,mainstream
+Politics,Human rights,mainstream
+Politics,United Nations,mainstream
+Politics,Election,mainstream
+Politics,Propaganda,mainstream
+Politics,Nationalism,mainstream
+Politics,Diplomacy,mainstream
+Politics,Sovereignty,mainstream
+Politics,Suffrage,mainstream
+Politics,Civil disobedience,mainstream
+Politics,Totalitarianism,mainstream
+Politics,Communism,mainstream
+Politics,Magna Carta,mainstream
+Politics,Geneva Conventions,mainstream
+Politics,Social contract,deepcut
+Politics,Gerrymandering,deepcut
+Politics,Filibuster,deepcut
+Politics,Realpolitik,deepcut
+Politics,Soft power,deepcut
+Politics,Balance of power (international relations),deepcut
+Politics,Coup d'état,deepcut
+Politics,Plutocracy,deepcut
+Politics,Oligarchy,deepcut
+Politics,Theocracy,deepcut
+Politics,Technocracy,deepcut
+Politics,Meritocracy,deepcut
+Politics,Direct democracy,deepcut
+Politics,Electoral College (United States),deepcut
+Politics,Habeas corpus,deepcut
+Politics,Universal Declaration of Human Rights,deepcut
+Politics,Nonviolent resistance,deepcut
+Politics,Welfare state,deepcut
+Politics,Populism,deepcut
+Politics,Cult of personality,deepcut
+Politics,Manifest destiny,deepcut
+Politics,Iron Curtain,deepcut
+Politics,Détente,deepcut
+Politics,Geopolitics,deepcut
+Politics,Suffragette,deepcut
+Politics,Magna Carta Libertatum,deepcut
+Religion,Christianity,mainstream
+Religion,Islam,mainstream
+Religion,Judaism,mainstream
+Religion,Hinduism,mainstream
+Religion,Buddhism,mainstream
+Religion,Sikhism,mainstream
+Religion,Bible,mainstream
+Religion,Quran,mainstream
+Religion,Torah,mainstream
+Religion,Jesus,mainstream
+Religion,Muhammad,mainstream
+Religion,Buddha,mainstream
+Religion,God,mainstream
+Religion,Prayer,mainstream
+Religion,Heaven,mainstream
+Religion,Hell,mainstream
+Religion,Reincarnation,mainstream
+Religion,Karma,mainstream
+Religion,Meditation,mainstream
+Religion,Pilgrimage,mainstream
+Religion,Monotheism,mainstream
+Religion,Polytheism,mainstream
+Religion,Atheism,mainstream
+Religion,Agnosticism,mainstream
+Religion,Ten Commandments,mainstream
+Religion,Crucifixion of Jesus,mainstream
+Religion,Zoroastrianism,deepcut
+Religion,Jainism,deepcut
+Religion,Shinto,deepcut
+Religion,Taoism,deepcut
+Religion,Confucianism,deepcut
+Religion,Gnosticism,deepcut
+Religion,Sufism,deepcut
+Religion,Kabbalah,deepcut
+Religion,Mysticism,deepcut
+Religion,Asceticism,deepcut
+Religion,Nirvana,deepcut
+Religion,Dharma,deepcut
+Religion,Eschatology,deepcut
+Religion,Apocalypse,deepcut
+Religion,Messiah,deepcut
+Religion,Original sin,deepcut
+Religion,Predestination,deepcut
+Religion,Animism,deepcut
+Religion,Pantheism,deepcut
+Religion,Deism,deepcut
+Religion,Baháʼí Faith,deepcut
+Religion,Dead Sea Scrolls,deepcut
+Religion,Council of Nicaea,deepcut
+Religion,Protestant Reformation,deepcut
+Religion,Tao Te Ching,deepcut
+Linguistics,Language,mainstream
+Linguistics,Grammar,mainstream
+Linguistics,Alphabet,mainstream
+Linguistics,Writing system,mainstream
+Linguistics,Phonetics,mainstream
+Linguistics,Syntax,mainstream
+Linguistics,Semantics,mainstream
+Linguistics,Etymology,mainstream
+Linguistics,Latin,mainstream
+Linguistics,Ancient Greek,mainstream
+Linguistics,Sanskrit,mainstream
+Linguistics,Esperanto,mainstream
+Linguistics,Sign language,mainstream
+Linguistics,Dialect,mainstream
+Linguistics,Translation,mainstream
+Linguistics,Hieroglyph,mainstream
+Linguistics,Cuneiform,mainstream
+Linguistics,Indo-European languages,mainstream
+Linguistics,Proto-Indo-European language,deepcut
+Linguistics,Linguistic relativity,deepcut
+Linguistics,Phoneme,deepcut
+Linguistics,Morpheme,deepcut
+Linguistics,Lingua franca,deepcut
+Linguistics,Creole language,deepcut
+Linguistics,Pidgin,deepcut
+Linguistics,Loanword,deepcut
+Linguistics,Onomatopoeia,deepcut
+Linguistics,Palindrome,deepcut
+Linguistics,Vowel,deepcut
+Linguistics,Consonant,deepcut
+Linguistics,International Phonetic Alphabet,deepcut
+Linguistics,Language family,deepcut
+Linguistics,Language death,deepcut
+Linguistics,Endangered language,deepcut
+Linguistics,Logogram,deepcut
+Linguistics,Rosetta Stone,deepcut
+Linguistics,Linear B,deepcut
+Linguistics,Voynich manuscript,deepcut
+Linguistics,Click consonant,deepcut
+Linguistics,Whistled language,deepcut
+Linguistics,Sapir–Whorf hypothesis,deepcut
+Linguistics,Universal grammar,deepcut
+Linguistics,Noam Chomsky,mainstream
+Linguistics,Semiotics,deepcut
+Linguistics,Idiom,deepcut
+Linguistics,Metaphor,mainstream
+Linguistics,Runes,deepcut
+Linguistics,Braille,mainstream
+Linguistics,Morse code,mainstream
+Architecture,Pyramid,mainstream
+Architecture,Colosseum,mainstream
+Architecture,Great Wall of China,mainstream
+Architecture,Eiffel Tower,mainstream
+Architecture,Taj Mahal,mainstream
+Architecture,Gothic architecture,mainstream
+Architecture,Parthenon,mainstream
+Architecture,Stonehenge,mainstream
+Architecture,Machu Picchu,mainstream
+Architecture,Petra,mainstream
+Architecture,Notre-Dame de Paris,mainstream
+Architecture,Sagrada Família,mainstream
+Architecture,Sydney Opera House,mainstream
+Architecture,Hagia Sophia,mainstream
+Architecture,Pantheon Rome,deepcut
+Architecture,Skyscraper,mainstream
+Architecture,Dome,mainstream
+Architecture,Arch,mainstream
+Architecture,Aqueduct,mainstream
+Architecture,Baroque architecture,deepcut
+Architecture,Romanesque architecture,deepcut
+Architecture,Brutalist architecture,deepcut
+Architecture,Art Deco architecture,deepcut
+Architecture,Modern architecture,deepcut
+Architecture,Bauhaus,deepcut
+Architecture,Frank Lloyd Wright,mainstream
+Architecture,Le Corbusier,deepcut
+Architecture,Antoni Gaudí,mainstream
+Architecture,Flying buttress,deepcut
+Architecture,Buttress,deepcut
+Architecture,Vault (architecture),deepcut
+Architecture,Cathedral,mainstream
+Architecture,Ziggurat,deepcut
+Architecture,Pagoda,deepcut
+Architecture,Minaret,deepcut
+Architecture,Feng shui,deepcut
+Architecture,Vitruvius,deepcut
+Architecture,Golden ratio,deepcut
+Architecture,Burj Khalifa,mainstream
+Architecture,Angkor Wat,mainstream
+Architecture,Chichen Itza,mainstream
+Architecture,Fallingwater,deepcut
+Architecture,Guggenheim Museum Bilbao,deepcut
+Architecture,Cologne Cathedral,deepcut
+Architecture,Palace of Versailles,mainstream
+Architecture,Forbidden City,mainstream
+Architecture,Alhambra,deepcut
+Architecture,Neuschwanstein Castle,deepcut
+Architecture,Tikal,deepcut
+Architecture,Borobudur,deepcut
+Film,Citizen Kane,mainstream
+Film,The Godfather,mainstream
+Film,Star Wars,mainstream
+Film,Casablanca (film),mainstream
+Film,Alfred Hitchcock,mainstream
+Film,Stanley Kubrick,mainstream
+Film,Steven Spielberg,mainstream
+Film,Akira Kurosawa,mainstream
+Film,Charlie Chaplin,mainstream
+Film,Walt Disney,mainstream
+Film,Animation,mainstream
+Film,Documentary film,mainstream
+Film,Film noir,mainstream
+Film,Silent film,mainstream
+Film,Cinematography,mainstream
+Film,Special effect,mainstream
+Film,Academy Awards,mainstream
+Film,Hollywood,mainstream
+Film,Bollywood,mainstream
+Film,Pixar,mainstream
+Film,Studio Ghibli,mainstream
+Film,Hayao Miyazaki,mainstream
+Film,2001: A Space Odyssey,mainstream
+Film,Psycho (1960 film),mainstream
+Film,Jaws (film),mainstream
+Film,Blade Runner,mainstream
+Film,Pulp Fiction,mainstream
+Film,The Matrix,mainstream
+Film,Spaghetti Western,deepcut
+Film,German Expressionism,deepcut
+Film,French New Wave,deepcut
+Film,Italian neorealism,deepcut
+Film,Auteur theory,deepcut
+Film,Montage,deepcut
+Film,Mise-en-scène,deepcut
+Film,Long take,deepcut
+Film,Match cut,deepcut
+Film,Practical effect,deepcut
+Film,Stop motion,deepcut
+Film,Rotoscoping,deepcut
+Film,Method acting,deepcut
+Film,MacGuffin,deepcut
+Film,Technicolor,deepcut
+Film,IMAX,deepcut
+Film,Nosferatu,deepcut
+Film,Metropolis (1927 film),deepcut
+Film,Seven Samurai,deepcut
+Film,The Cabinet of Dr. Caligari,deepcut
+Film,Orson Welles,deepcut
+Film,Alfred Hitchcock filmography,deepcut
+Film,Federico Fellini,deepcut
+Sports,Association football,mainstream
+Sports,Basketball,mainstream
+Sports,Baseball,mainstream
+Sports,Tennis,mainstream
+Sports,Olympic Games,mainstream
+Sports,FIFA World Cup,mainstream
+Sports,Cricket,mainstream
+Sports,Golf,mainstream
+Sports,Boxing,mainstream
+Sports,American football,mainstream
+Sports,Ice hockey,mainstream
+Sports,Rugby football,mainstream
+Sports,Swimming (sport),mainstream
+Sports,Marathon,mainstream
+Sports,Cycling,mainstream
+Sports,Formula One,mainstream
+Sports,Chess,mainstream
+Sports,Martial arts,mainstream
+Sports,Gymnastics,mainstream
+Sports,Skiing,mainstream
+Sports,Surfing,mainstream
+Sports,Volleyball,mainstream
+Sports,Table tennis,mainstream
+Sports,Wrestling,mainstream
+Sports,Muhammad Ali,mainstream
+Sports,Pelé,mainstream
+Sports,Michael Jordan,mainstream
+Sports,Usain Bolt,mainstream
+Sports,Serena Williams,mainstream
+Sports,Ancient Olympic Games,deepcut
+Sports,Tour de France,mainstream
+Sports,Wimbledon Championships,mainstream
+Sports,Super Bowl,mainstream
+Sports,Sumo,deepcut
+Sports,Judo,deepcut
+Sports,Fencing,deepcut
+Sports,Archery,deepcut
+Sports,Rowing (sport),deepcut
+Sports,Decathlon,deepcut
+Sports,Pentathlon,deepcut
+Sports,Parkour,deepcut
+Sports,Rock climbing,deepcut
+Sports,Triathlon,deepcut
+Sports,Cross-country skiing,deepcut
+Sports,Curling,deepcut
+Sports,Capoeira,deepcut
+Sports,Muay Thai,deepcut
+Sports,Jujutsu,deepcut
+Sports,Kabaddi,deepcut
+Sports,Sepak takraw,deepcut
+Sports,Hurling,deepcut
+Sports,Lacrosse,deepcut
+Sports,Calcio Fiorentino,deepcut

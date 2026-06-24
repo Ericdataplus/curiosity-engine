@@ -2,9 +2,33 @@
 <html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Curiosity Engine — discover a random science topic from Wikipedia, then dive deeper on Wikipedia or YouTube.">
-    <title>Curiosity Engine | Random Science Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Curiosity Engine — click once to discover a fascinating random topic from Wikipedia, then follow your curiosity down the rabbit hole. Science, history, art, philosophy, and more.">
+    <meta name="theme-color" content="#3366cc">
+    <title>Curiosity Engine — Discover a Random Topic & Follow Your Curiosity</title>
+    <link rel="canonical" href="https://ericdataplus.github.io/curiosity-engine/">
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Curiosity Engine">
+    <meta property="og:title" content="Curiosity Engine — Follow Your Curiosity">
+    <meta property="og:description" content="Click once to discover a fascinating random topic from Wikipedia, then dive down the rabbit hole. Science, history, art, philosophy, and more.">
+    <meta property="og:url" content="https://ericdataplus.github.io/curiosity-engine/">
+    <meta property="og:image" content="https://ericdataplus.github.io/curiosity-engine/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Curiosity Engine — Follow Your Curiosity">
+    <meta name="twitter:description" content="Click once to discover a fascinating random topic from Wikipedia, then dive down the rabbit hole.">
+    <meta name="twitter:image" content="https://ericdataplus.github.io/curiosity-engine/og-image.png">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,21 +36,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Apply saved/OS theme before first paint to avoid a flash -->
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('theme');
+                if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', t);
+            } catch (e) { /* ignore */ }
+        })();
+    </script>
 </head>
 <body>
+    <!-- Screen-reader live region: announces when a new article loads -->
+    <div id="sr-status" class="sr-only" role="status" aria-live="polite"></div>
+
     <!-- Reading progress bar at the top -->
     <div class="progress-container">
         <div class="progress-bar" id="progress-bar"></div>
     </div>
 
-    <!-- Bookmarks panel -->
-    <div class="bookmarks-panel" id="bookmarks-panel" aria-label="Your bookmarks">
+    <!-- Bookmarks / reading-list panel -->
+    <div class="bookmarks-panel" id="bookmarks-panel" aria-label="Your reading list">
         <div class="bookmarks-header">
-            <h3><i class="fas fa-bookmark" aria-hidden="true"></i> Your Bookmarks</h3>
-            <button class="close-bookmarks" id="close-bookmarks" aria-label="Close bookmarks"><i class="fas fa-times" aria-hidden="true"></i></button>
+            <h3><i class="fas fa-bookmark" aria-hidden="true"></i> Reading List</h3>
+            <button class="close-bookmarks" id="close-bookmarks" aria-label="Close reading list"><i class="fas fa-times" aria-hidden="true"></i></button>
+        </div>
+        <div class="reading-progress" id="reading-progress" hidden>
+            <div class="reading-progress-label"><span id="reading-progress-text">0 of 0 read</span></div>
+            <div class="reading-progress-track"><div class="reading-progress-fill" id="reading-progress-fill"></div></div>
         </div>
         <div id="bookmarks-list">
-            <div class="empty-bookmarks">No bookmarks yet. Save interesting articles to read later!</div>
+            <div class="empty-bookmarks">No saved topics yet. Bookmark anything interesting to build a reading list you can come back to.</div>
         </div>
     </div>
 
@@ -34,20 +76,13 @@
         <header>
             <div class="logo-container">
                 <h1>Curiosity Engine</h1>
-                <p>Discover a random science topic and follow your curiosity</p>
+                <p>Discover a random topic and follow your curiosity</p>
             </div>
             <div class="header-controls">
                 <label class="filter">
                     <span class="filter-label">Topic area</span>
                     <select id="category-select" aria-label="Filter random topics by area">
-                        <option value="Science">All areas</option>
-                        <option value="Physics">Physics</option>
-                        <option value="Chemistry">Chemistry</option>
-                        <option value="Biology">Biology</option>
-                        <option value="Astronomy">Astronomy</option>
-                        <option value="Mathematics">Mathematics</option>
-                        <option value="Computer_science">Computer science</option>
-                        <option value="Earth_science">Earth science</option>
+                        <option value="">All areas</option>
                     </select>
                 </label>
                 <div class="stats-container">
@@ -56,7 +91,12 @@
                         <span id="explored-count">0</span>
                         <small>Explored</small>
                     </div>
-                    <button class="stat-item clickable" id="bookmarks-stat" aria-label="View your bookmarks">
+                    <div class="stat-item" id="streak-stat" title="Day streak — visit daily to keep it alive" hidden>
+                        <i class="fas fa-fire" aria-hidden="true"></i>
+                        <span id="streak-count">0</span>
+                        <small>Streak</small>
+                    </div>
+                    <button class="stat-item clickable" id="bookmarks-stat" aria-label="View your reading list">
                         <i class="fas fa-bookmark" aria-hidden="true"></i>
                         <span id="bookmarks-count">0</span>
                         <small>Saved</small>
@@ -68,24 +108,66 @@
             </button>
         </header>
 
+        <!-- Topic of the Day + resume-your-trail banner -->
+        <div class="banner-row">
+            <button class="daily-chip" id="daily-chip" hidden>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <span class="daily-label">Topic of the day</span>
+                <span class="daily-topic" id="daily-topic-name"></span>
+            </button>
+            <button class="resume-chip" id="resume-chip" hidden>
+                <i class="fas fa-rotate-left" aria-hidden="true"></i>
+                <span id="resume-text">Resume your trail</span>
+            </button>
+        </div>
+
+        <!-- First-run intro + keyboard hint -->
+        <div class="intro" id="intro" hidden>
+            <p><strong>Welcome.</strong> Click <em>Discover</em> for a random topic, then follow the <em>related</em> chips down the rabbit hole.</p>
+            <button class="intro-dismiss" id="intro-dismiss" aria-label="Dismiss intro">Got it</button>
+        </div>
+        <div class="kbd-hint" id="kbd-hint">Tip: press <kbd>→</kbd> (or <kbd>n</kbd>) for the next topic</div>
+
         <main class="content">
             <article class="wiki-container">
+                <!-- Rabbit-hole trail / breadcrumb -->
+                <nav class="trail" id="trail" aria-label="Your exploration trail" hidden>
+                    <div class="trail-list" id="trail-list"></div>
+                    <button class="trail-share" id="trail-share" title="Copy a link to this trail" aria-label="Share this trail">
+                        <i class="fas fa-link" aria-hidden="true"></i> Share trail
+                    </button>
+                </nav>
+
                 <div class="wiki-header">
                     <h2 id="article-title">Loading article…</h2>
                     <div class="wiki-actions">
                         <button id="simple-toggle" class="text-toggle" aria-pressed="false" aria-label="Show a simpler explanation">Simpler</button>
+                        <button id="note-btn" class="icon-action" aria-label="Add a note" title="Add a note">
+                            <i class="fas fa-pen" aria-hidden="true"></i>
+                        </button>
                         <button id="listen-btn" class="icon-action" aria-label="Listen to this article" title="Listen">
                             <i class="fas fa-volume-up" aria-hidden="true"></i>
                         </button>
                         <button id="bookmark-btn" class="bookmark-btn" aria-label="Bookmark this article">
                             <i class="far fa-bookmark" aria-hidden="true"></i>
                         </button>
-                        <button id="share-btn" class="share-btn" aria-label="Copy a link to this article">
+                        <button id="share-btn" class="share-btn" aria-label="Share a link to this article">
                             <i class="fas fa-share-alt" aria-hidden="true"></i>
                         </button>
                         <div id="copy-tooltip" class="copy-link-tooltip" role="status">Link copied!</div>
                     </div>
                 </div>
+
+                <!-- Per-topic note editor -->
+                <div class="note-editor" id="note-editor" hidden>
+                    <textarea id="note-text" rows="3" placeholder="Jot down why this caught your eye…" aria-label="Your note for this topic"></textarea>
+                    <div class="note-editor-actions">
+                        <button id="note-save" class="note-btn-save">Save note</button>
+                        <button id="note-delete" class="note-btn-delete">Delete</button>
+                        <button id="note-close" class="note-btn-close">Close</button>
+                    </div>
+                </div>
+                <div class="note-display" id="note-display" hidden></div>
 
                 <figure class="article-hero" id="article-hero" hidden>
                     <img id="article-hero-img" alt="" loading="lazy">
@@ -105,7 +187,7 @@
                     </ol>
                 </nav>
 
-                <div id="article-content" class="article-content" tabindex="0">
+                <div id="article-content" class="article-content">
                     <div class="loading-spinner" aria-label="Loading"></div>
                 </div>
 
@@ -139,17 +221,24 @@
                     <span class="video-topic" id="video-topic-label"></span>
                 </div>
                 <div class="video-player" id="video-player" hidden></div>
-                <div class="video-list" id="video-list">
+                <div class="video-list" id="video-list" aria-live="polite">
                     <div class="video-loading"><div class="loading-spinner" aria-label="Loading videos"></div></div>
                 </div>
             </aside>
         </main>
     </div>
 
+    <!-- Milestone celebration toast -->
+    <div class="toast" id="toast" hidden role="status" aria-live="polite">
+        <span class="toast-text" id="toast-text"></span>
+        <button class="toast-share" id="toast-share">Share</button>
+        <button class="toast-close" id="toast-close" aria-label="Dismiss">&times;</button>
+    </div>
+
     <footer>
         <div class="footer-content">
-            <p>Content from <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a> • Videos from <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></p>
-            <p>Made with <i class="fas fa-heart" aria-hidden="true"></i> for science enthusiasts</p>
+            <p>Content from <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a> • Videos from <a href="https://www.dailymotion.com" target="_blank" rel="noopener noreferrer">Dailymotion</a> &amp; <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></p>
+            <p>Made with <i class="fas fa-heart" aria-hidden="true"></i> for the endlessly curious</p>
         </div>
     </footer>
 
