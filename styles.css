@@ -1314,8 +1314,9 @@ kbd {
 .toast {
     position: fixed;
     left: 50%;
-    bottom: 5.5rem; /* sit above the fixed Discover button */
-    transform: translateX(-50%) translateY(180%);
+    top: 1rem; /* top-center, clear of the bottom Discover button */
+    bottom: auto;
+    transform: translateX(-50%) translateY(-180%);
     background: var(--card-background);
     color: var(--text-color);
     border: 1px solid var(--border-accent);
@@ -1467,7 +1468,8 @@ body { padding-bottom: 6rem; }
     body { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 6.5rem); }
 
     .toast {
-        bottom: calc(env(safe-area-inset-bottom, 0px) + 5rem);
+        top: calc(env(safe-area-inset-top, 0px) + 0.75rem);
+        bottom: auto;
         width: calc(100vw - 1.5rem);
         max-width: none;
         justify-content: center;
